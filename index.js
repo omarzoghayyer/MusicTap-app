@@ -11,6 +11,8 @@ window.addEventListener("load", () => {
     "#60c2d3"
   ];
 
+  
+  //loop that will enable me to create a sound after clicking on each color(button)
   pads.forEach((pad, index) => {
     pad.addEventListener("click", function() {
       sounds[index].currentTime = 0;
